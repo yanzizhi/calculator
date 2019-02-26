@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+
+  // 跳转链接
+  navigateToCalculator: function() {
+    wx.navigateTo({
+      url: '/pages/calculator/calculator',
+    })
   }
 })

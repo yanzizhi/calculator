@@ -17,5 +17,12 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top: 120rpx;
+}
+
+.calculator {
+  font-size: 48rpx;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 120rpx;
 }
