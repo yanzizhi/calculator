@@ -1,9 +1,17 @@
 /* pages/calculator/calculator.wxss */
+
 page {
-  background-color: #000000;
+  background-color: #000;
 }
+
+.screen {
+  position: fixed;
+  bottom: 760rpx;
+  width: 750rpx;
+}
+
 .screen view {
-  color: #ffffff;
+  color: #fff;
   font-size: 60rpx;
   text-align: right;
   padding-right: 30rpx;
@@ -13,22 +21,47 @@ page {
   display: flex;
   flex-direction: row;
 }
+
 .buttonItem {
-  width: 187.5rpx;
+  width: 188rpx;
   line-height: 150rpx;
+  border-radius: 0;
 }
+
 .buttonItemIcon {
-  width: 187.5rpx;
+  width: 188rpx;
+  border-radius: 0;
   /* line-height: 150rpx; */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.zero {
-  width: 375rpx;
+
+.white {
+  background-color: #fefefd;
 }
+.orange {
+  background-color: #fc9504;
+}
+.gray {
+  background-color: #cdcdcd;
+}
+
+.zero {
+  width: 376rpx;
+}
+
 .keyBoard {
   position: fixed;
   bottom: 0;
+}
+
+button::after {
+  border-radius: 0;
+  /* background: #ddd; */
+}
+
+.shadow {
+  background-color: green;
 }
