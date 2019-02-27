@@ -1,2 +1,42 @@
-<!--pages/calculator/calculator.wxml-->
-<text>pages/calculator/calculator.wxml</text>
+<view class='screen'>
+  <view>000</view>
+</view>
+
+
+<view class='keyBoard'>
+  <view class='btnGroup'>
+    <button class='buttonItem'>清除</button>
+    <button class='buttonItem'>回退</button>
+    <button class='buttonItemIcon'>
+      <icon type='waiting'></icon>
+    </button>
+    <button class='buttonItem'>/</button>
+  </view>
+
+  <view class='btnGroup'>
+    <button class='buttonItem'>7</button>
+    <button class='buttonItem'>8</button>
+    <button class='buttonItem'>9</button>
+    <button class='buttonItem'>x</button>
+  </view>
+
+  <view class='btnGroup'>
+    <button class='buttonItem'>4</button>
+    <button class='buttonItem'>5</button>
+    <button class='buttonItem'>6</button>
+    <button class='buttonItem'>-</button>
+  </view>
+
+  <view class='btnGroup'>
+    <button class='buttonItem'>1</button>
+    <button class='buttonItem'>2</button>
+    <button class='buttonItem'>3</button>
+    <button class='buttonItem'>+</button>
+  </view>
+
+  <view class='btnGroup'>
+    <button class='buttonItem zero'>0</button>
+    <button class='buttonItem'>.</button>
+    <button class='buttonItem'>=</button>
+  </view>
+</view>
